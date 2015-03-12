@@ -1,10 +1,15 @@
 package iCalendar;
+import java.io.FileNotFoundException;
+
+//java.io;
+
 
 public class iCalendar {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello world!");
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		createFile makeTheFile = new createFile();
+		makeTheFile.printToFile();
 		
 	}
 
